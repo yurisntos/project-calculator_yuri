@@ -1,11 +1,23 @@
+body{
+   display: flex;
+   justify-content: space-around;
+}
 main{
+    
     background-color: gold;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 400px;
     height: 600px;
+    border: 2px solid #f10808;
     
+}
+.titulo {
+    background-color: #f6f04d;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 5px;
 }
 .buttonsNumbers {
     display: flex;
@@ -14,8 +26,12 @@ main{
     justify-content: space-around;
 }
 .number{
-    padding: 10px;
+    padding: 20px;
     margin: 25px;
+    background-color: hwb(32 0% 0%);
+}
+.number:hover{
+border: 2px dashed white;
 }
 .visor input{
     width: 100%;
@@ -25,6 +41,11 @@ main{
    
 }
 button.operator {
-    padding: 10px;
-    margin: 10px;
+    padding: 20px;
+    margin: 5px;
+    background-color: #46d946;
+    border: 1px solid black;
+}
+.operator:hover{
+border: 2px dashed white;
 }
