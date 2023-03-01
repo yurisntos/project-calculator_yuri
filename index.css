@@ -1,0 +1,23 @@
+main{
+    background-color: gold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 600px;
+    
+}
+
+button.number {
+   width: max-content;
+    padding: 10px;
+    border: none;
+    margin: 10px;
+}
+
+
+
+.visor input{
+    width: 100%;
+     
+}
