@@ -7,17 +7,24 @@ main{
     height: 600px;
     
 }
-
-button.number {
-   width: max-content;
-    padding: 10px;
-    border: none;
-    margin: 10px;
+.buttonsNumbers {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
 }
-
-
-
+.number{
+    padding: 10px;
+    margin: 25px;
+}
 .visor input{
     width: 100%;
-     
+}
+.operadores{
+   display: flex;
+   
+}
+button.operator {
+    padding: 10px;
+    margin: 10px;
 }
