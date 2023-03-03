@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="index.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
     <title>Calculadora</title>
 </head>
 <body>
@@ -13,30 +15,30 @@
             <h1 class="text">Calculadora</h1>
         </div>
         <div class="visor">
-            <input placeholder="Digite um número"class="inputNumber" type="number">
+            <input id="visor" placeholder="Digite um número"class="inputNumber" type="number">
         </div>
 
         <div class="buttonsNumbers">
-            <button class="number">1</button>
-            <button class="number">2</button>
-            <button class="number">3</button>
-            <button class="number">4</button>
-            <button class="number">5</button>
-            <button class="number">6</button>
-            <button class="number">7</button>
-            <button class="number">8</button>
-            <button class="number">9</button>
+            <button class="number"id="1"> 1</button>
+            <button class="number"id="2">2</button>
+            <button class="number"id="3">3</button>
+            <button class="number"id="4">4</button>
+            <button class="number"id="5">5</button>
+            <button class="number"id="6">6</button>
+            <button class="number"id="7">7</button>
+            <button class="number"id="8">8</button>
+            <button class="number"id="9">9</button>
         </div>
 
         <div class="operadores">
-            <button class="operator">+</button>
-            <button class="operator">-</button>
-            <button class="operator">\</button>
-            <button class="operator">*</button>
+            <button class="operator" id="btn_soma">+</button>
+            <button class="operator" id="btn_subt">-</button>
+            <button class="operator" id="btn_divi">\</button>
+            <button class="operator" id="btn_multi">*</button>
         </div>
 
-        <div class="result">
-            <button class="operator">=</button>
+        <div class="operadores">
+            <button class="operator" id="btn_igual">=</button>
         </div>
     </main>
          
